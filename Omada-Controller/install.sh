@@ -147,7 +147,7 @@ case "${OMADA_VER}" in
     ;;
 esac
 
-# make sure tha the install directory exists
+# make sure that the install directory exists
 mkdir "${OMADA_DIR}" -vp
 
 # starting with 5.0.x, the installation has no webapps directory; these values are pulled from the install.sh
