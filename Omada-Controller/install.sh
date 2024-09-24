@@ -38,12 +38,12 @@ case "${INSTALL_VER}" in
   5.5)
     OMADA_URL="https://static.tp-link.com/upload/software/2022/202208/20220822/Omada_SDN_Controller_v5.5.6_Linux_x64.tar.gz"
     ;;
-  5.14)
-    OMADA_URL="https://static.tp-link.com/upload/software/2024/202407/20240710/Omada_SDN_Controller_v5.14.26.1_linux_x64.tar.gz"
+  5.13)
+    OMADA_URL="https://static.tp-link.com/upload/software/2024/202402/20240227/Omada_SDN_Controller_v5.13.30.8_linux_x64.deb"
     ;;
   *)
     echo "ERROR: INSTALL_VER (${INSTALL_VER}) is not a supported major.minor version; valid versions:"
-    echo "  4.1, 4.2, 4.3, 4.4, 5.0, 5.1, 5.3, 5.4, 5.5, 5.14"
+    echo "  4.1, 4.2, 4.3, 4.4, 5.0, 5.1, 5.3, 5.4, 5.5, 5.13"
     exit 1
     ;;
 esac
